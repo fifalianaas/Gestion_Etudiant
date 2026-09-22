@@ -1,1 +1,336 @@
+#fenetreEtudiant {
+    -fx-background-color:#050E1C;
+}
 
+#body {
+    -fx-alignment: CENTER;
+}
+
+#titreEtudiant {
+    -fx-background-color: red;
+    -fx-fill: white;
+    -fx-font-size: 30px;
+}
+
+#header{
+    -fx-background-color: #142541;
+    -fx-background-radius: 8px;
+    -fx-padding: 0 5px 5px 5px;
+}
+
+#title_search {
+    -fx-text-fill: #01ff01;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+}
+#lbl_search {
+    -fx-text-fill: #838383;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+#lbl {
+    -fx-text-fill: #b3b9be;
+}
+
+#pane_widgets_h {
+    -fx-padding: 5px;
+}
+
+#btn_search {
+    -fx-background-color: #2A7AF5;
+    -fx-text-fill: #ffffff;
+}
+
+#btn_search:hover {
+    -fx-background-color: #919191;
+    -fx-text-fill: #ffffff;
+    -fx-cursor: hand;
+}
+
+#btn_clear:hover {
+    -fx-background-color: #919191;
+    -fx-text-fill: #ffffff;
+    -fx-cursor: hand;
+}
+
+#pane_formulaire {
+    -fx-pref-width: 300px;
+    -fx-min-width: 300px;
+    -fx-background-color: #142541;
+    -fx-padding: 5px;
+    -fx-background-radius: 8px;
+}
+
+#lbl_titre_form {
+    -fx-text-fill: #2A7AF5;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+#lbl_matricule,
+#lbl_nom,
+#lbl_prenom,
+#lbl_classe,
+#lbl_date_naiss,
+#lbl_email,
+#lbl_telephone,
+#lbl_parcours,
+#lbl_annee_univ,
+#lbl_status {
+    -fx-alignment: center-right;
+    -fx-pref-width: 120px;
+    -fx-pref-height: 30px;
+    -fx-text-fill: #b3b9be;
+}
+
+#matricule_entry,
+#nom_entry,
+#prenom_entry,
+#classe_entry,
+#date_entry,
+#email_entry,
+#telephone_entry,
+#parcours_entry,
+#annee_univ_entry,
+#status_entry {
+    -fx-pref-width: 170px;
+    -fx-pref-height: 30px;
+}
+
+#btn_form {
+    -fx-pref-width: 290px;
+    -fx-alignment: center;
+    -fx-padding: 10px;
+}
+
+#btn_add_new {
+    -fx-background-color: #00be00;
+    -fx-text-fill: #ffffff;
+
+
+}
+
+#btn_add_new:hover {
+    -fx-background-color: #919191;
+    -fx-text-fill: #ffffff;
+}
+
+#btn_ajouter {
+    -fx-background-color: #2A7AF5;
+    -fx-text-fill: #ffffff;
+}
+
+#btn_ajouter:hover {
+    -fx-background-color: #919191;
+    -fx-text-fill: #ffffff;
+}
+
+#pane_table {
+    -fx-background-color: #142541;
+    -fx-background-radius: 8px;
+    -fx-alignment: top-center;
+
+}
+
+#tableContainer {
+    -fx-background-color: #142541;
+    /*-fx-background-color: #172c4e;*/
+}
+
+#scroll_table {
+    -fx-background-color: #142541;
+}
+
+#pagination {
+    -fx-background-color: #142541;
+}
+
+#lbl_titre_table {
+    -fx-text-fill: #e92727;
+    -fx-padding: 5px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+#colonne {
+    -fx-background-color: #022b68;
+    -fx-text-fill: #b3b9be;
+    -fx-border-width: 1px;
+    -fx-border-color: #172c4e;
+    -fx-alignment: center;
+    -fx-font-weight: bold;
+}
+
+
+
+#table_row {
+    -fx-background-color: #142541;
+}
+
+#actif {
+    -fx-text-fill: #ffffff;
+-fx-background-color: #da7a7a;
+    -fx-border-width: 1px;
+    -fx-border-color: #ffffff;
+}
+
+#colonne_list:hover{
+    -fx-background-color: #727272;
+    -fx-text-fill: #ffffff;
+    -fx-cursor: hand;
+}
+
+#table_header {
+    -fx-background-color: #1a1a5e;
+}
+
+#titleWindow {
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 15px;
+    -fx-padding: 0 30px 0 0;
+}
+
+#menu {
+    -fx-background-color: #050E1C;
+    -fx-pref-height: 40px;
+    -fx-min-height: 40px;
+    -fx-background-radius: 0px;
+    -fx-alignment: center-left;
+    -fx-padding: 0 0 0 10px;
+    -fx-cursor: move;
+
+}
+#menu:hover {
+    -fx-background-color: #0F1B2F;
+}
+
+#iconWindow {
+    -fx-background-color: #2A7AF5;
+    -fx-pref-width: 30px;
+    -fx-pref-width: 30px;
+    -fx-background-radius: 15px;
+}
+
+#settings {
+    -fx-text-fill: #ffffff;
+    -fx-min-height: 20px;
+    -fx-min-width: 80px;
+    -fx-max-width: 80px;
+    -fx-pref-width: 80px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-alignment: center;
+}
+
+#settings:hover, #btnToNote:hover,
+#btnToEtudiant:hover {
+    -fx-background-color: #2A7AF5;
+}
+
+#btnToAutre {
+    -fx-text-fill: #ffffff;
+    -fx-min-height: 20px;
+    -fx-min-width: 80px;
+    -fx-max-width: 80px;
+    -fx-pref-width: 80px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-alignment: center;
+}
+#btnToEtudiant {
+    -fx-text-fill: #ffffff;
+    -fx-min-height: 20px;
+    -fx-min-width: 80px;
+    -fx-max-width: 80px;
+    -fx-pref-width: 80px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-alignment: center;
+}
+
+
+#btnReduire, #btnAgrandir, #btnExit {
+    -fx-pref-width: 50px;
+    -fx-pref-height: 20px;
+    -fx-border-style: none;
+    -fx-alignment: center;
+    -fx-background-color: transparent;
+    -fx-font-size: 23px;
+    -fx-background-radius: 0;
+    -fx-text-fill: #ffffff;
+    -fx-cursor: hand;
+}
+
+
+#btnReduire:hover, #btnAgrandir:hover {
+    -fx-background-color: #19395e;
+}
+
+#btnExit:hover {
+    -fx-background-color: #e92727;
+
+}
+
+#btn_show_form {
+    -fx-alignment: CENTER-LEFT;
+    -fx-pref-width: 20px;
+    -fx-pref-height: 620px;
+    -fx-background-color: #142541;
+    -fx-text-fill: #ffffff;
+
+}
+
+
+
+
+
+/* ================ NOTE ====================*/
+#fenetreAutre {
+    -fx-background-color: #142541;
+}
+
+#headAutre {
+    -fx-background-color: #183057;
+    -fx-pref-height: 45px;
+    -fx-min-height: 45px;
+    -fx-background-radius: 10px;
+    -fx-padding: 10px;
+}
+
+#btnEnregistrer {
+    -fx-background-color: #19395e;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+#btnImporter {
+    -fx-background-color: #19395e;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+#btnImporter:hover, #btnEnregistrer:hover {
+    -fx-background-color: #2A7AF5;
+}
+
+#preview {
+    -fx-alignment: center-left;
+    -fx-background-color: #183057;
+    -fx-padding: 10px;
+    -fx-min-width: 850px;
+}
+
+#lblNouvelleListe {
+    -fx-background-color: #19395e;
+    -fx-text-fill: #ffffff;
+}
+
+#scrollPane {
+    fx-background-color: #010c1f;
+    -fx-max-width: 700px;
+}
